@@ -2,6 +2,7 @@ package com.ayla.common.model;
 
 import java.util.List;
 
+
 public class Rule {
 
 	String name;

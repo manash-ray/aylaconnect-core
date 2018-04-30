@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Map;
 
 
-
 public class DeviceAlert {
 	
 	private Long id;

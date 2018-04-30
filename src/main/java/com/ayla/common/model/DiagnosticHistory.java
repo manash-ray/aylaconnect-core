@@ -2,6 +2,7 @@ package com.ayla.common.model;
 
 import java.util.List;
 
+
 public class DiagnosticHistory {
 	int total;
 	int current_page_number;
@@ -9,7 +10,7 @@ public class DiagnosticHistory {
 	int start_count_on_page;
 	int end_count_on_page;
 	
-	List<DiagnosticState> diagnostic_states_history;
+	List<DiagnosticState> diagnostic_states;
 
 	public int getTotal() {
 		return total;
@@ -51,16 +52,13 @@ public class DiagnosticHistory {
 		this.end_count_on_page = end_count_on_page;
 	}
 
-	public List<DiagnosticState> getDiagnostic_states_history() {
-		return diagnostic_states_history;
+	public List<DiagnosticState> getDiagnostic_states() {
+		return diagnostic_states;
 	}
 
-	public void setDiagnostic_states_history(List<DiagnosticState> diagnostic_states_history) {
-		this.diagnostic_states_history = diagnostic_states_history;
+	public void setDiagnostic_states(List<DiagnosticState> diagnostic_states) {
+		this.diagnostic_states = diagnostic_states;
 	}
-
-
-
 
 	
 	

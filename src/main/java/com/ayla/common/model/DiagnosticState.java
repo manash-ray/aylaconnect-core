@@ -1,5 +1,6 @@
 package com.ayla.common.model;
 
+
 public class DiagnosticState {
 
 	String uuid;
@@ -11,7 +12,6 @@ public class DiagnosticState {
 	
 	String user_uuid;
 	String rule_uuid;
-	String diagnostic_name;
 	String created_at;
 	public String getUuid() {
 		return uuid;
@@ -38,12 +38,7 @@ public class DiagnosticState {
 	public void setRule_uuid(String rule_uuid) {
 		this.rule_uuid = rule_uuid;
 	}
-	public String getDiagnostic_name() {
-		return diagnostic_name;
-	}
-	public void setDiagnostic_name(String diagnostic_name) {
-		this.diagnostic_name = diagnostic_name;
-	}
+
 	public String getCreated_at() {
 		return created_at;
 	}
